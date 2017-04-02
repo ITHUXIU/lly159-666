@@ -216,11 +216,13 @@ ul li{
     overflow: hidden;
 }
 .image-large-border2{
-    float: left;
-    width: 98%;
-    height: 120px;
+    position: relative;
+    width: 95%;
+    margin:0 auto;
+    height: 180px;
     overflow: hidden;
 }
+
 .image-large-border3{
     float: left;
     width: 50%;
@@ -229,6 +231,7 @@ ul li{
      overflow: hidden;
 }
 .image-large-border2 img{
+    position: relative;
     display: block;
     height: 100%;
     width: 100%;
@@ -237,10 +240,10 @@ ul li{
 {
 height: 100%;
 width: 100%;
-transition: all 1s ease-in-out;
--moz-transition:all 1s ease-in-out; /* Firefox 4 */
--webkit-transition:all 1s ease-in-out; /* Safari and Chrome */
--o-transition:all 1s ease-in-out; /* Opera */
+transition: all .5s ease-in-out;
+-moz-transition:all .5s ease-in-out; /* Firefox 4 */
+-webkit-transition:all .5s ease-in-out; /* Safari and Chrome */
+-o-transition:all .5s ease-in-out; /* Opera */
 }
 .image-large:hover
 {
@@ -248,6 +251,17 @@ transition: all 1s ease-in-out;
     transform: scale(1.05);
     box-shadow: 0px 0px 18px rgba(0,0,0,.5);
 
+}
+.image-large-border2 a{
+    display: block;
+    position: absolute;
+    height: 5px;
+    width: 5px;
+    top: 10px;
+    right: 0;
+    z-index: 10;
+    background-image: url(../images/heart.png);
+    background-repeat: no-repeat;
 }
 .main{
     position: relative;
@@ -281,7 +295,7 @@ transition: all 1s ease-in-out;
     padding: 15px 15px 0px 15px;
 }
 .passage-a p{
-    line-height: 25px;
+    line-height: 30px;
     font-size: 16px;
     padding: 15px 10px 15px 15px;
 }
@@ -293,26 +307,26 @@ transition: all 1s ease-in-out;
     display: block;
     float: left;
     width: 23%;
-    height: 250px;
     margin-top: 50px;
     border-right: 1px solid #b5b5b5;
 }
 .container-div a{
-    margin-top: 120px;
+
     display: block;
     padding: 8% 5%;
 }
 .container-div span{
     background: url(../images/people.png);
     background-repeat: no-repeat;
-    background-position: 8px 10px;
+    background-position: 8px 17px;
     background-size: 30px 30px;
     color: #b5b5b5;
-    padding: 8% 23%;
+    padding: 20px 0px 8px 50px;
 }
 .container-div p{
     color: #b5b5b5 ;
-   padding: 8% 5%;
+   padding: 15% 5%;
+   font-size: 14px;
 }
 .container-left-div{
     margin-left: 4%;
@@ -383,7 +397,7 @@ transition: all 1s ease-in-out;
 {
     display: block;
     float: left;
-    width: 26%;
+    width: 32%;
     height: 25px;
     line-height: 20px;
 }
@@ -419,6 +433,7 @@ transition: all 1s ease-in-out;
 {
     display: block;
     margin:20% auto;
+    margin-bottom: 15px;
     width: 80%;
     height: 60%;
 }
@@ -433,13 +448,14 @@ transition: all 1s ease-in-out;
 .main-subject-right-content-first-a{
     background: url(../images/sun.png);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: 80% 100%;
+    background-position: center;
 }
 .dip{
      background: url(../images/circle.png);
      background-repeat: no-repeat;
      background-position: center;
-     background-size: 100% 100%;
+     background-size: 60% 80%;
 }
 .footer{
     height: 200px;
@@ -507,7 +523,46 @@ transition: all 1s ease-in-out;
 .footer-bottom img{
     height: 20px;
 }
-@media  (min-width:980px) and (max-width:1410px) 
+@media  (min-width:1200px) and (max-width:1410px) 
+{
+.center{
+    width: 950px;
+}
+}
+@media  (min-width:1100px) and (max-width:1200px) 
+{
+.center{
+    width: 850px;
+}
+.image-large-border2 {
+    height: 140px;
+}
+.image-large-border {
+
+    height: 180px;
+
+}
+.passage-a h2 {
+    padding: 5px 0px 5px 15px;
+}
+.passage-a span {
+    padding: 5px 15px 0px 15px;
+}
+.passage-a p {
+    padding: 5px 10px 5px 15px;
+}
+.main-passage-content a {
+    height: 180px;
+}
+.main-subject-right-content-first-a {
+    background-size: 95% 100%;
+
+}
+.dip{
+     background-size: 70% 80%;
+}
+}
+@media  (min-width:980px) and (max-width:1100px) 
 {
 .center{
     width: 720px;
@@ -540,6 +595,36 @@ transition: all 1s ease-in-out;
 }
 .footer-narrow-center{
     width: 80%;
+}
+.image-large-border2 {
+    height: 120px;
+}
+.image-large-border {
+
+    height: 180px;
+
+}
+.container-div p {
+padding: 10px 10px 30px 10px;
+}
+.passage-a h2 {
+    padding: 5px 0px 5px 15px;
+}
+.passage-a span {
+    display: none;
+}
+.passage-a p {
+    padding: 5px 10px 5px 15px;
+}
+.main-passage-content a {
+    height: 180px;
+}
+.main-subject-right-content-first-a {
+    background-size: 95% 100%;
+
+}
+.dip{
+     background-size: 70% 80%;
 }
 }
 @media  (min-width:0px) and (max-width:980px) 
