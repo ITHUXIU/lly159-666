@@ -53,7 +53,7 @@ legend {
     color: #000000;
     }
 body {
-    font: 13px/1.231 '微软雅黑',arial,helvetica,clean,sans-serif;
+    font: 16px/1.231 '微软雅黑',arial,helvetica,clean,sans-serif;
     }
 select, input, button, textarea {
     font: 99% arial,helvetica,clean,sans-serif;
@@ -196,7 +196,7 @@ ul li{
     height: 50px;
     padding-bottom: 50px;
     width: 90px;
-    font-size: 22px;
+    font-size: 18px;
     color:#ffffff;
     text-align: center;
     line-height: 50px;
@@ -218,7 +218,6 @@ ul li{
 .image-large-border{
     float: left;
     width: 33.3%;
-    height: 250px;
     overflow: hidden;
 }
 .image-large-border1{
@@ -228,11 +227,9 @@ ul li{
      overflow: hidden;
     float: left;
     width: 60%;
-    height: 230px;
 }
 .image-large-border3{
      overflow: hidden;
-     height: 430px;
 
 }
 .image-large
@@ -261,8 +258,7 @@ transition: all 1s ease-in-out;
     float: none;
 }
 .main-channel-left{
-    position: absolute;
-    width: 19.5%;
+    width: 32%;
     float: left;
 }
 .main-channel-right{
@@ -277,21 +273,20 @@ transition: all 1s ease-in-out;
     float: right;
 }
 .main-channel-left-content-content{
-    height: 400px;
     margin-bottom: 27px;
     background-color: #f0f0f0;
 }
 
 .main-channel-left-content div img{
-   height: 330px;
+   height: auto;
     width: 100%;
 }
 .main-channel-left-content div a{
     text-align: center;
     display: block;
     font-size: 18px;
-    height: 70px;
-    line-height: 70px;
+    height: 60px;
+    line-height: 60px;
     width: 100%;
 }
 .main-channel-left-content div a:hover{
@@ -312,7 +307,7 @@ transition: all 1s ease-in-out;
 
 }
 .channel-right-large{
-    height: 560px;
+    overflow: hidden;
     background: #f0f0f0;
      float: right;
     margin-top: 20px!important;
@@ -325,19 +320,18 @@ transition: all 1s ease-in-out;
 }
 .channel-right-large h1{
     float: left;
-    color: red;
     display: block;
     padding-left: 20px;
     line-height: 50px!important;
     height: 50px!important;
-    font-size: 20px;
+    font-size: 18px;
 }
 .channel-right-large span{
     margin:5px 10px 0px 0px!important;
     padding: 5px 15px!important;
     line-height: 31px;
     width: 60px!important;
-    font-size: 20px;
+    font-size: 18px;
 }
 .label{
     display: block;
@@ -352,6 +346,7 @@ transition: all 1s ease-in-out;
     text-align: center;
 }
 .channel-right-small{
+
     position: relative;
 }
 .channel-right-small .label
@@ -368,15 +363,23 @@ transition: all 1s ease-in-out;
     color: white;
 }
 .channel-right-large p{
-    padding: 5px 20px;
-    color: red;
+
+    padding: 5px 20px ;
     float: left;
+}
+.channel-right-large  p:hover{
+    color: red;
+}
+.channel-right-large  h1:hover{
+    color: red;
+}
+.label :hover{
+    color:white!important;
 }
 .image-large-border3 a p{
     color: white;
     display: block;
     line-height: 16px;
-    font-size: 14px;
     padding: 65px 35px 0px 20px;
 }
 .main-channel-right-content div img{
@@ -387,22 +390,27 @@ transition: all 1s ease-in-out;
 .channel-right-small{
 
      width: 83%;
-    margin-top: 50px;
+    margin-top: 25px;
     background: #f0f0f0;
      float: right;
-    height: 230px;
+
 }
 .channel-right-small  h1{
    text-align: center;
-   padding-top: 20px;
-   font-size: 20px;
+   padding-top: 10px;
+   font-size: 18px;
 }
 .channel-right-small  p{
     display: block;
     float:right;
     width: 37%;
    padding: 1%;
-    font-size:14px!important;
+}
+.channel-right-small  p:hover{
+    color: red;
+}
+.channel-right-small  h1:hover{
+    color: red;
 }
 .channel-right-small span{
     margin-right: 10px;
@@ -412,7 +420,7 @@ transition: all 1s ease-in-out;
 }
 .channel-right-small-last
 {
-    margin-bottom: 30px;
+    margin-bottom: 28px;
 }
 .main-channel-right-content  span{
      text-align: center;
@@ -430,14 +438,14 @@ transition: all 1s ease-in-out;
     display: block;
     width: 100%;
     float: right;
-    font-size: 20px;
+    font-size: 18px;
     text-align: right;
     color: #b5b5b5;
 }
 .more-different2{
         width: 150px;
         color: black;
-        font-size: 20px;
+        font-size: 18px;
         padding-right: 30px;
       margin-top: 38px;
 }
@@ -460,24 +468,27 @@ transition: all 1s ease-in-out;
     margin-top: 13px;
 }
 .main-outer-bottom{
-    padding-top: 30px;
-    padding-bottom: 50px;
+    background-color: #f0f0f0;
+    margin-top: 30px;
+    margin-bottom: 50px;
 }
 .passage-a{
-    height: 250px;
+    overflow: hidden;
     float: left;
     display: block;
     width: 33%;
     background-color: #f0f0f0;
 }
 .passage-a h2{
-    font-size: 22px;
+    font-size: 18px;
     line-height: 30px;
     padding:25px 0px 15px 15px;
     padding:25px 0px 15px 15px;
 }
 
 .gray{
+    position: relative;
+    top:50;
     display: block;
     background: url(../images/3.png);
     background-position: -2px -10px;
@@ -487,7 +498,7 @@ transition: all 1s ease-in-out;
     width: 80%;
     font-size: 22px;
     color: #b5b5b5;
-    margin: 100px 10px 15px 10px;
+    margin: 70PX 20px 0px 20px;
 }
 
 .red-span{
@@ -503,9 +514,9 @@ transition: all 1s ease-in-out;
 }
 .clock-span{
    position: relative;
-    top: -50px;
+    top: -15px;
     float: right;
-    font-size: 20px;
+    font-size: 18px;
     color: #b5b5b5;
     display: block;
     margin-top: 10px;
@@ -586,50 +597,101 @@ transition: all 1s ease-in-out;
 .footer-bottom img{
     height: 20px;
 }
-@media  (min-width:980px) and (max-width:1410px) 
+@media  (min-width:1700px) and (max-width:1800px) 
+{
+    .passage-a h2{
+        padding-top: 20PX;
+    }
+     .gray{
+        margin-top: 45px;
+        margin-left: 20px;
+    }
+
+
+}
+@media  (min-width:1600px) and (max-width:1700px) 
+{
+    .passage-a h2{
+        padding-top: 15PX;
+    }
+     .gray{
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+
+
+}
+@media  (min-width:1300px) and (max-width:1600px) 
+{
+    .center{
+        width: 1000px;
+    }
+    .gray{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .clock-span{
+    top: -12px;
+}
+.center-dif{
+    width: 1000px;
+    margin:0 auto;
+}
+
+
+}
+@media  (min-width:980px) and (max-width:1300px) 
 {
     .center{
         width: 720px;
     }
+    .main-channel-left{
+    position: absolute;
+    width: 19.5%;
+    float: left;
+}
 .channel-right-small{
     width: 90%;
-        height: 148px;
+
 }
 .main-channel-left{
 
     width: 230px;
 }
 .gray{
-   margin-left: 0px;
-   font-size: 14px;
+   display: none;
+}
+.passage-a h2{
+
+    padding-top: 15px;
 }
 .center-dif{
     width: 720px;
     margin:0 auto;
 }
-.clock-span{
-    font-size: 14px!important;
-}
-.main-channel-left-content-content{
-    height: 290px;
-}
+
 .main-channel-left-content div img {
-    height: 220px;
+    height: auto;
     width: 100%;
 }
-.channel-right-large{
-    height: 450px;
-}
+
 .channel-right-large p{
-    font-size: 14px;
+   padding-bottom: 50px;
 }
-.image-large-border3{
-    height: 330px;
+.channel-right-large h1
+{
+    display: none;
+}
+
+.channel-right-large span
+{
+    display: none;
 }
 .channel-right-small h1
 {
     display: none;
 }
+
 .channel-right-small span
 {
     display: none;
@@ -637,15 +699,8 @@ transition: all 1s ease-in-out;
   .footer-narrow-center{
         width: 720px;
     }
-.image-large-border2{
-    height: 148px;
-}
-.image-large-border {
-    height: 230px;
-}
-.passage-a {
-    height: 230px;
-}
+
+
 }
 @media  (min-width:0px) and (max-width:980px) 
 {
@@ -672,6 +727,41 @@ transition: all 1s ease-in-out;
     .center-dif{
         margin: 0 auto;
     width: 900px;
+}
+.passage-a h2{
+
+    padding-bottom: 5px;
+}
+.clock-span{
+    top: -10px;
+}
+ .gray{
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+.channel-right-small{
+    margin-top: 34px;
+}
+.channel-right-large p{
+   padding-bottom: 50px;
+}
+.channel-right-large h1
+{
+    display: none;
+}
+
+.channel-right-large span
+{
+    display: none;
+}
+.channel-right-small h1
+{
+    display: none;
+}
+
+.channel-right-small span
+{
+    display: none;
 }
 }
 

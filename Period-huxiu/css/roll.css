@@ -17,7 +17,7 @@
 	height: 18px;
 	width: 100%;
 	margin-top: 146px;
-	margin-left: 0px;
+	margin-left: -6px;
     padding-left: 36px;
     background: url(../images/plane.png);
     background-position: -24px -74px;
@@ -28,7 +28,7 @@
 	display: block;
 	width: 100%;
 	margin-top: 30px;
-	margin-left: 10px;
+	margin-left: -2px;
     padding-left: 16px;
     background: url(../images/plane.png);
     background-position: -45px -108px;
@@ -40,9 +40,9 @@
 	display: block;
 	width: 100%;
 	height: 30px;
+	margin-left: -2px;
 	line-height: 30px;
 	margin-top: 170px;
-	padding-left: 13px;
 }
 
 .left-div-last:hover{
