@@ -14,6 +14,19 @@
       width: 65%;
         margin-left: 15%;
 }
+.passage-a{
+    height: 180px;
+}
+.gray{
+    margin: 20PX 10px 0px 20px!important;
+}
+.channel-right-large p{
+    padding-top: 0px;
+    padding-bottom: 30px;
+}
+.clock-span{
+    top:-10;
+}
 .footer-right-wchat
 {
     filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/wchat.png', sizingMethod='scale');
