@@ -49,6 +49,13 @@
 .gray{
     margin: 20PX 10px 0px 20px!important;
 }
+.channel-right-large
+{
+    height:440px;
+}
+.channel-right-small{
+        height: 165px;
+    }
 .main-passage-content a{
     height: 225px;
 }

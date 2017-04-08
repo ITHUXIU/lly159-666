@@ -244,6 +244,7 @@ transition: all 1s ease-in-out;
    margin-bottom: 30px;
 }
 .buy{
+    overflow: hidden;
     position: relative;
     height: 300px;
 }
@@ -266,6 +267,7 @@ transition: all 1s ease-in-out;
     color: red;
 }
 .active{
+    overflow: hidden;
     height: 400px;
 }
 .active span{
