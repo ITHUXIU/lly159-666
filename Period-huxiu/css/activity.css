@@ -364,7 +364,7 @@ transition: all 1s ease-in-out;
 }
 .channel-right-large p{
 
-    padding: 5px 20px ;
+    padding: 5px 20px 5px 20px ;
     float: left;
 }
 .channel-right-large  p:hover{
@@ -390,7 +390,7 @@ transition: all 1s ease-in-out;
 .channel-right-small{
 
      width: 83%;
-    margin-top: 25px;
+    margin-top: 24px;
     background: #f0f0f0;
      float: right;
 
@@ -652,7 +652,7 @@ transition: all 1s ease-in-out;
 }
 .channel-right-small{
     width: 90%;
-
+    margin-top: 25px;
 }
 .main-channel-left{
 
@@ -676,7 +676,7 @@ transition: all 1s ease-in-out;
 }
 
 .channel-right-large p{
-   padding-bottom: 50px;
+   padding-bottom: 5px;
 }
 .channel-right-large h1
 {
@@ -686,6 +686,10 @@ transition: all 1s ease-in-out;
 .channel-right-large span
 {
     display: none;
+}
+.channel-right-small 
+{
+    margin-top: 29px;
 }
 .channel-right-small h1
 {
@@ -743,7 +747,7 @@ transition: all 1s ease-in-out;
     margin-top: 22px;
 }
 .channel-right-large p{
-   padding-bottom: 30px;
+   padding-bottom: 5px;
 }
 .channel-right-large h1
 {
