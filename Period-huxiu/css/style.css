@@ -18,14 +18,6 @@ p {
   margin-bottom: 22px;
 }
 
-
-
-
-.flatbtn  {
-background: #333;
- 
-}
-
 /** custom login button **/
 .flatbtn-blu { 
 
@@ -272,7 +264,6 @@ background: #333;
   color: #fff;
   background-color: #ef2322;
 }
-p,li{cursor: pointer;}
 .search-blu { 
   display: inline-block;
   outline: 0;

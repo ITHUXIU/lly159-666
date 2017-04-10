@@ -18,22 +18,25 @@
 	width: 100%;
 	margin-top: 146px;
 	margin-left: -6px;
-    padding-left: 36px;
     background: url(../images/plane.png);
     background-position: -24px -74px;
 	background-repeat: no-repeat;
+}
+.left-div-first a{
+	 padding-left: 36px;
 }
 .left-div-second{
 	float: left;
 	display: block;
 	width: 100%;
 	margin-top: 30px;
-	margin-left: -2px;
-    padding-left: 16px;
+	margin-left: -2px;   
     background: url(../images/plane.png);
-    background-position: -45px -108px;
+    background-position: -45px -106px;
 	background-repeat: no-repeat;
-
+}
+.left-div-second a{
+	padding-left: 16px;
 }
 .left-div-last{
 	float: left;
@@ -42,10 +45,10 @@
 	height: 30px;
 	margin-left: -2px;
 	line-height: 30px;
-	margin-top: 170px;
+	margin-top: 155px;
 }
 
-.left-div-last:hover{
+.left-div-last a:hover{
         color: red;      
     }
 .pageScroll {
@@ -63,16 +66,16 @@
 	margin-left: 40%;
 }
 .scrollNav a {
-	display: block;
 	color: #333;
 	font-weight: normal;
-	padding-bottom: 26px;
 	height: 20px;
 	line-height: 20px;
-	text-align: right; /* Old browsers */
+	 
 }
 .scrollNav {
 	width: 80px;
+	text-align: right;
+	margin-bottom: 25px;
 }
 .scrollNav_1, .scrollNav_1 a {
 	color:#333333;
