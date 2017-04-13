@@ -672,8 +672,10 @@ transition: all 1s ease-in-out;
     .right-content{
         height: 182px;
     }
+    .image-large-border2{
+    height: 182px;
+}
     
-
 
 }
 @media  (min-width:1179px) and (max-width:1380px) 
@@ -698,6 +700,9 @@ transition: all 1s ease-in-out;
     .right-content{
         height: 154px;
     }
+        .image-large-border2{
+    height: 154px;
+}
     .main-channel-left-content li a{
         height: 50px;
         line-height: 50px;
@@ -776,6 +781,9 @@ transition: all 1s ease-in-out;
     .right-content{
         height: 154px;
     }
+        .image-large-border2{
+    height: 154px;
+    }
     .main-channel-left-content li a{
         height: 50px;
         line-height: 50px;
@@ -849,6 +857,9 @@ transition: all 1s ease-in-out;
     }
     .right-content{
         height: 154px;
+    }
+    .image-large-border2{
+    height: 154px;
     }
     .main-channel-left-content li a{
         height: 50px;
