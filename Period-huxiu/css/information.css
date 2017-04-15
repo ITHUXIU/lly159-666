@@ -235,9 +235,12 @@ ul li{
     height: auto;
     width: 100%;
 }
+.image-large-border3 img{
+    height: auto;
+}
 .image-large
 {
-    height: auto;
+    height: 288px;
     width: 100%;
     transition: all .5s ease-in-out;
     -moz-transition:all .5s ease-in-out; /* Firefox 4 */
@@ -267,6 +270,10 @@ ul li{
     overflow: hidden;
     background-color: white;
 }
+.main-content-content ul{
+    width: 93%;
+    margin-left: 7%;
+}
 .passage-div{
     width: 100%;
     height: 288px;
@@ -281,9 +288,15 @@ ul li{
     font-size: 18px;
     line-height: 30px;
     padding:25px 20px 15px 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 .passage-div span{
     display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
     color: #b5b5b5 ;
     font-size: 16px;
     padding: 15px 20px 0px 20px;
@@ -311,10 +324,18 @@ ul li{
     height: 400px;
 }
 .main-content-content-border a{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
     display: block;
-    margin:50px 10px 20px 20px;
+    margin:50px 10px 10px 20px;
 }
-.main-content-content-border span{
+.main-content-content-border-span{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+    width: 72%;
     background: url(../images/people.png);
     background-repeat: no-repeat;
     background-position: 18px 17px;
@@ -326,8 +347,8 @@ ul li{
     color: #b5b5b5 ;
    padding: 5px 20px 10px 20px;
 }
-.main-content-content-border-left{
-    margin-left: 4%;
+.main-content-content-border-right{
+   border: none;
 }
 .reward{
     margin:0px!important;
@@ -382,7 +403,7 @@ ul li{
 }
 .page-red{
     width: 5%;
-    margin-right:5%;
+    margin-right:8%;
     background-color: #ef2322;
 }
 .page-red a{
@@ -417,14 +438,23 @@ ul li{
     background: #ffffff;
     height: 270px;
     overflow: hidden;
+
 }
 .main-subject-left-content ul li
 {
     overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
     height: 25px;
     position: relative;
     display: block;
     line-height: 25px;
+}
+.main-subject-left-content ul li a
+{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 .main-subject-left-content-box
 {
@@ -452,13 +482,13 @@ ul li{
     float: right!important;
 }
 .right-box{
-    width: 75%;
+    width: 72%;
     margin: 0 auto;
 } 
 .right-content-div
 {
     margin-top: 40px;
-    padding: 20px 30px 5px 30px;
+    padding: 20px 20px 5px 20px;
     background-color: rgb(250,250,250);
     float: left;
     text-align: center;
@@ -572,6 +602,9 @@ ul li{
     .center{
         width:876px;
     }
+     .image-large{
+        height: 219px;
+    }
     .passage-div
     {
         height: 219px;
@@ -609,6 +642,10 @@ ul li{
     .left-div{
     left: 50px;
     }
+    .right-box{
+    width: 80%;
+    margin: 0 auto;
+} 
     .pageScroll {
         position: fixed !important;
         top: 60%;
@@ -626,6 +663,9 @@ ul li{
     }
      .passage-div
     {
+        height: 210px;
+    }
+    .image-large{
         height: 210px;
     }
     .passage-div h2{
@@ -654,7 +694,7 @@ ul li{
         width: 3%;
     }
     .right-box{
-        width: 85%;
+        width: 80%;
     }
     .right-content-div{
         margin-top: 60px;
@@ -684,16 +724,19 @@ ul li{
     .passage-div{
         height: 177px;
     }
-    .main-content-content-border a{
-        margin: 10px 5px 20px 5px;
+       .image-large{
+        height: 177px;
     }
-    .main-content-content-border span{
+    .main-content-content-border a{
+        margin: 30px 5px 0px 10px;
+    }
+    .main-content-content-border-span{
         background-position: 5px 17px;
-        padding: 22px 0px 15px 40px;
+        padding: 22px 0px 5px 40px;
     }
      .main-content-content-border p {
         line-height: 20px;
-        padding: 15px 10px 10px 10px;
+        padding: 10px 10px 10px 10px;
     }
     .main-content-content-border{
         height: 300px
@@ -730,16 +773,13 @@ ul li{
         margin-left: 5px;
     }
     .passage-div a {
-       display: none;
+      padding: 5px 0px 0px 10px;  
     }
     .passage-div span {
-        display: none;
+        padding: 20px 0px 0px 10px; 
     }
     .passage-div p {
-        padding: 15px 10px 15px 10px;
-    }
-    .main-content-content-border a{
-        margin: 5px 10px 25px;
+        padding: 8px 10px 15px 10px;
     }
     .main-subject-left-content{
 
@@ -749,7 +789,7 @@ ul li{
         margin-top: 5px;
     }
     .right-box{
-        width: 90%;
+        width: 85%;
     }
     .right-content-div{
         margin-top: 25px;
@@ -779,6 +819,9 @@ ul li{
     }
     .passage-div
     {
+        height: 245px;
+    }
+    .image-large{
         height: 245px;
     }
     .main-content-content-border a{
