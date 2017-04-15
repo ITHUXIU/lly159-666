@@ -340,7 +340,6 @@ transition: all 1s ease-in-out;
 .channel-right-large span{
     margin:5px 10px 0px 0px!important;
     padding: 5px 15px!important;
-    line-height: 31px;
     width: 60px!important;
     font-size: 18px;
 }
@@ -437,9 +436,11 @@ transition: all 1s ease-in-out;
    font-size: 18px;
 }
 .channel-right-small  p{
-
+    height:100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
     float:right;
-   padding: 10px 10px 10px 10px ;
+   padding: 10px 10px 0px 10px ;
 }
 .channel-right-small  p:hover{
     color: red;
@@ -448,7 +449,7 @@ transition: all 1s ease-in-out;
     color: red;
 }
 .channel-right-small span{
-    margin-right: 10px;
+    margin-right: 15px;
 }
 .channel-right-small img{
     width: 100%!important;
@@ -464,7 +465,7 @@ transition: all 1s ease-in-out;
    height: 20px;
    line-height: 20px;
     padding: 2px 2px;
-    margin-top: 8px;
+    margin-top: 10px;
    float: right;
    color: white;
    background-color: red;
@@ -689,6 +690,7 @@ transition: all 1s ease-in-out;
     .clock-span{
         top: -12px;
     }
+  
     .channel-right-large{
         height: 465px;
         overflow: hidden;
@@ -721,6 +723,9 @@ transition: all 1s ease-in-out;
     .main-channel-left{
         width: 275px;
     }
+      .channel-right-small  p{
+    height:80px;
+        }
     .channel-right-small{
         width: 90%;
         height: 154px;
@@ -804,6 +809,9 @@ height: 153px;
 {   .center{
         width: 816px;
     }
+    .channel-right-small  p{
+    height:80px;
+        }
     .main-channel-left{
         position: absolute;
         float: left;
@@ -909,6 +917,9 @@ height: 153px;
     .right-content{
         height: 154px;
     }
+         .channel-right-small  p{
+    height:80px;
+        }
     .image-large-border2{
     height: 154px;
     }
@@ -1065,6 +1076,9 @@ height: 153px;
     {
         margin-bottom: 25px!important;
     }
+         .channel-right-small  p{
+    height:80px;
+        }
     .channel-right-large p{
        padding-bottom: 5px;
     }

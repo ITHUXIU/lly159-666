@@ -292,7 +292,7 @@ ul li{
     text-overflow: ellipsis;
     white-space: nowrap;
 }
-.passage-div span{
+.passage-div-span{
     display: block;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -302,9 +302,13 @@ ul li{
     padding: 15px 20px 0px 20px;
 }
 .passage-div p{
+    display: block;
+    overflow: hidden;
+     text-overflow: ellipsis;
+    height: 155px;
     line-height: 30px;
     font-size: 16px;
-    padding: 10px 20px 15px 20px;
+    padding: 10px 20px 0px 20px;
 }
 .passage-image-border{
     float: left;
@@ -330,12 +334,12 @@ ul li{
     display: block;
     margin:50px 10px 10px 20px;
 }
-.main-content-content-border-span{
+.people-span{
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
     display: block;
-    width: 72%;
+    width: 70%;
     background: url(../images/people.png);
     background-repeat: no-repeat;
     background-position: 18px 17px;
@@ -344,8 +348,12 @@ ul li{
     padding: 22px 0px 8px 60px;
 }
 .main-content-content-border p{
+    height: 80px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 25px;
     color: #b5b5b5 ;
-   padding: 5px 20px 10px 20px;
+   padding: 5px 20px 0px 20px;
 }
 .main-content-content-border-right{
    border: none;
@@ -506,6 +514,9 @@ ul li{
     font-size: 18px;
     text-align: center;
 }
+.mid{
+    margin-top: 20px;
+}
 .footer{
     height: 200px;
     background: #333;
@@ -612,12 +623,14 @@ ul li{
     .passage-div h2{
          padding: 25px 20px 0px 20px;
     }
-    .passage-div span
+    .passage-div-span
     {
         padding-top: 5px;
     }
     .passage-div p{
         padding-top: 20px;
+        line-height: 25px;
+        height: 95px;
     }
     .main-content-content-border{
         height: 350px;
@@ -671,7 +684,7 @@ ul li{
     .passage-div h2{
          padding: 20px 20px 0px 20px;
     }
-    .passage-div span
+    .passage-div-span
     {
         padding-top: 5px;
     }
@@ -681,6 +694,9 @@ ul li{
     .main-content-content-border a{
         margin-top: 25px;
     }
+    .main-content-content-border p{
+    height: 100px;
+        }
     .main-content-content-border{
         height: 350px;
     }
@@ -706,7 +722,11 @@ ul li{
      .left-div{
         left: 10px;
     }
-
+   .passage-div p{
+        padding-top: 16px;
+        line-height: 25px;
+        height: 95px;
+    }
     .pageScroll {
         position: fixed !important;
         top: 60%;
@@ -730,17 +750,20 @@ ul li{
     .main-content-content-border a{
         margin: 30px 5px 0px 10px;
     }
-    .main-content-content-border-span{
+    .people-span{
         background-position: 5px 17px;
         padding: 22px 0px 5px 40px;
     }
      .main-content-content-border p {
         line-height: 20px;
-        padding: 10px 10px 10px 10px;
+        padding: 10px 10px 0px 10px;
     }
     .main-content-content-border{
         height: 300px
     }
+        .main-content-content-border p{
+    height: 80px;
+        }
     .page{
         width: 2%;
     }
@@ -775,11 +798,12 @@ ul li{
     .passage-div a {
       padding: 5px 0px 0px 10px;  
     }
-    .passage-div span {
+    .passage-div-span {
         padding: 20px 0px 0px 10px; 
     }
     .passage-div p {
-        padding: 8px 10px 15px 10px;
+        height: 85px;
+        padding: 8px 10px 0px 10px;
     }
     .main-subject-left-content{
 
@@ -840,6 +864,9 @@ ul li{
     }
     .footer{
         width: 980px;
+    }
+       .passage-div p {
+        height: 125px;
     }
     .center{
         width: 980px;
